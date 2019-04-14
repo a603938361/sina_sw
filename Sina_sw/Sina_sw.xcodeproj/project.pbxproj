@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8534095C226375ED0094BE92 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534095B226375ED0094BE92 /* MainViewController.swift */; };
+		8534095E2263766E0094BE92 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534095D2263766E0094BE92 /* HomeViewController.swift */; };
+		85340960226376770094BE92 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534095F226376770094BE92 /* DiscoverViewController.swift */; };
+		85340962226376820094BE92 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85340961226376820094BE92 /* MessageViewController.swift */; };
+		853409642263768E0094BE92 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853409632263768E0094BE92 /* ProfileViewController.swift */; };
 		85D4C8D322636E860000DB75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D4C8D222636E860000DB75 /* AppDelegate.swift */; };
-		85D4C8D522636E860000DB75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85D4C8D422636E860000DB75 /* ViewController.swift */; };
 		85D4C8D822636E860000DB75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D4C8D622636E860000DB75 /* Main.storyboard */; };
 		85D4C8DA22636E870000DB75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85D4C8D922636E870000DB75 /* Assets.xcassets */; };
 		85D4C8DD22636E870000DB75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85D4C8DB22636E870000DB75 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8534095B226375ED0094BE92 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8534095D2263766E0094BE92 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		8534095F226376770094BE92 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		85340961226376820094BE92 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		853409632263768E0094BE92 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		85D4C8CF22636E860000DB75 /* Sina_sw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sina_sw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D4C8D222636E860000DB75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85D4C8D422636E860000DB75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85D4C8D722636E860000DB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85D4C8D922636E870000DB75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85D4C8DC22636E870000DB75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +43,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85340955226375DD0094BE92 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				85340956226375DD0094BE92 /* Home */,
+				85340957226375DD0094BE92 /* Discover */,
+				85340958226375DD0094BE92 /* Message */,
+				85340959226375DD0094BE92 /* Profile */,
+				8534095A226375DD0094BE92 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		85340956226375DD0094BE92 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				8534095D2263766E0094BE92 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		85340957226375DD0094BE92 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				8534095F226376770094BE92 /* DiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		85340958226375DD0094BE92 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				85340961226376820094BE92 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		85340959226375DD0094BE92 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				853409632263768E0094BE92 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		8534095A226375DD0094BE92 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8534095B226375ED0094BE92 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		85D4C8C622636E860000DB75 = {
 			isa = PBXGroup;
 			children = (
@@ -54,8 +114,8 @@
 		85D4C8D122636E860000DB75 /* Sina_sw */ = {
 			isa = PBXGroup;
 			children = (
+				85340955226375DD0094BE92 /* Classes */,
 				85D4C8D222636E860000DB75 /* AppDelegate.swift */,
-				85D4C8D422636E860000DB75 /* ViewController.swift */,
 				85D4C8D622636E860000DB75 /* Main.storyboard */,
 				85D4C8D922636E870000DB75 /* Assets.xcassets */,
 				85D4C8DB22636E870000DB75 /* LaunchScreen.storyboard */,
@@ -135,8 +195,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85D4C8D522636E860000DB75 /* ViewController.swift in Sources */,
+				8534095C226375ED0094BE92 /* MainViewController.swift in Sources */,
 				85D4C8D322636E860000DB75 /* AppDelegate.swift in Sources */,
+				8534095E2263766E0094BE92 /* HomeViewController.swift in Sources */,
+				853409642263768E0094BE92 /* ProfileViewController.swift in Sources */,
+				85340962226376820094BE92 /* MessageViewController.swift in Sources */,
+				85340960226376770094BE92 /* DiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +348,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sina_sw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +366,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Sina_sw/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
